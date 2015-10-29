@@ -1,0 +1,7 @@
+obj
+bin
+*.files*
+*.user*
+*.creator*
+*.includes*
+*.config*
