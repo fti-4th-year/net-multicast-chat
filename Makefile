@@ -9,7 +9,7 @@ obj:
 bin/run: obj/main.o
 	gcc -g $^ -o $@ -lpthread
 
-obj/main.o: src/main.c src/conn.h src/proto.h
+obj/main.o: src/main.c
 	gcc -g -c $< -o $@
 
 clean:
